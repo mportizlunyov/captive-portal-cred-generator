@@ -9,5 +9,11 @@
   },
   "icons": {
     "48": "CapPortalExt_Logo.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./javascript.d/engine.js", "./javascript.d/message.js"]
+    }
+  ]
 }

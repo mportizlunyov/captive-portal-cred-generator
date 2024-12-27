@@ -1,7 +1,7 @@
 /* Main CSS file to contain rules for working with JavaScript. */
 
 /*Used for button to generate credentials*/
-#generate {
+#generateButton {
   background-color: transparent;
 }
 

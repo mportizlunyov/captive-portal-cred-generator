@@ -19,9 +19,15 @@ const credential = {
       extraLength = 1;
     }
     // Increase length of usernameToReturn as requested by user
-    for (let i = 0; i < extraLength; i++) {
-      usernameToReturn += generateString();
-    }
+    // // Attempt this in try/catch
+    try {
+      for (let i = 0; i < extraLength; i++) {
+        usernameToReturn += generateString();
+      }
+    } catch (error) {
+      // If fails, return "FAILED"
+      return "FAILED"
+    } 
     return usernameToReturn;
   },
 
