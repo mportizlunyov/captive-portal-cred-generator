@@ -1,0 +1,11 @@
+/* Main CSS file to contain rules for working with JavaScript. */
+
+/*Used for button to generate credentials*/
+#generate {
+  background-color: transparent;
+}
+
+/*Used when replacing text*/
+#credentials {
+  background-color: unset;
+}
