@@ -1,0 +1,10 @@
+{
+  "name": "Captive Portal Credential Generator",
+  "description": "A browser extension made to automatically generate a username/email credential for a Wi-Fi login Captive Portal.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "CapPortalExt_Logo.png"
+  }
+}
