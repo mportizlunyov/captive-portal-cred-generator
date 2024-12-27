@@ -6,6 +6,9 @@
 }
 
 /*Used when replacing text*/
-#credentials {
+#credentialUsername {
+  background-color: unset;
+}
+#credentialEmail {
   background-color: unset;
 }

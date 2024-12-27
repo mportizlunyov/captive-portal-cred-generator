@@ -41,6 +41,7 @@ const credential = {
     return emailToReturn;
   }
 }
+export { credential };
 
 console.log(credential.username(1));
 console.log(credential.email(1));

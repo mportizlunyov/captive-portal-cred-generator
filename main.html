@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <!-- HTML body for browser extension -->
 <html>
-  <head></head>
+  <head>
+    <link rel="stylesheet" href="./css.d/main.css">
+  </head>
   <body>
     <h1>Hello!</h1>
     <script src="./javascript.d/message.js"></script>
+    <button id="generate" onclick="createMessage()">Generate Credentials</button>
+    <p id="credentialUsername"></p>
+    <p id="credentialEmail"></p>
   </body>
 </html>
