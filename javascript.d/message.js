@@ -6,13 +6,15 @@ function createMessage() {
   } else {
     document.getElementById('credentialUsername').textContent = credential.username(1);
     document.getElementById('credentialEmail').textContent = credential.email(1);
-    console.log("");
-    console.log("");
+    console.log("Username: " + credential.username(1));
+    console.log("Email:    " + credential.email(1));
   }
 }
 
-// Set add EventListner in event of button with id "generate"
-// document.getElementById("generateButton").addEventListener("click", createMessage);
-document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("generateButton").addEventListener("click", createMessage);
-});
+// Add event listener
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+    document.getElementById("generateButton").addEventListener("click", createMessage);
+  }
+);

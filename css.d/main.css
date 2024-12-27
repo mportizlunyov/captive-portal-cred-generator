@@ -13,8 +13,10 @@
 
 /*Used when replacing text*/
 #credentialUsername {
-  background-color: unset;
+  background-color: white;
+  /* padding-left: 10%; */
 }
 #credentialEmail {
-  background-color: unset;
+  background-color: white;
+  /* padding-left: 10%; */
 }

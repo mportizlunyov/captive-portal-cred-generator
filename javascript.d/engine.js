@@ -47,6 +47,3 @@ const credential = {
     return emailToReturn;
   }
 }
-
-// console.log(credential.username(1));
-// console.log(credential.email(1));
