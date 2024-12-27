@@ -1,4 +1,4 @@
-// Main Javascript Engine to generate credentials
+// Javascript Engine to generate credentials
 
 // Method to generate a string. Can be called multiple times for multiple strings
 function generateString() {
@@ -47,7 +47,6 @@ const credential = {
     return emailToReturn;
   }
 }
-export { credential };
 
-console.log(credential.username(1));
-console.log(credential.email(1));
+// console.log(credential.username(1));
+// console.log(credential.email(1));

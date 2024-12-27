@@ -4,6 +4,12 @@
 #generateButton {
   background-color: transparent;
 }
+#generateButton:hover {
+  background-color: aqua;
+}
+#generateButton:active {
+  background-color: yellow;
+}
 
 /*Used when replacing text*/
 #credentialUsername {
